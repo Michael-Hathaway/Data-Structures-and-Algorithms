@@ -15,3 +15,8 @@ and algorithms in the Go programming language.</p>
 <ul>
   <li>Insertion Sort</li>
 </ul>
+
+<h4>Interview Questions</h4>
+<ul>
+  <li>Array of Products</li>
+</ul>
