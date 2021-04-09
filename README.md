@@ -22,4 +22,5 @@ and algorithms in the Go programming language.</p>
   <li>Array of Products</li>
   <li>Reconstruct BST</li>
   <li>Overlapping Intervals</li>
+  <li>Three Number Sum</li>
 </ul>
