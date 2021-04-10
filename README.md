@@ -23,4 +23,5 @@ and algorithms in the Go programming language.</p>
   <li>Reconstruct BST</li>
   <li>Overlapping Intervals</li>
   <li>Three Number Sum</li>
+  <li>Has Single Cycle</li>
 </ul>
