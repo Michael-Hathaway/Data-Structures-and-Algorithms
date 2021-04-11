@@ -10,6 +10,7 @@ and algorithms in the Go programming language.</p>
   <li>Binary Search Tree</li>
   <li>AVL Tree</li>
   <li>Singly Linked List</li>
+  <li>Doubly Linked List</li>
 </ul>
 
 <h4>Algorithms</h4>
