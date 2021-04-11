@@ -11,6 +11,7 @@ and algorithms in the Go programming language.</p>
   <li>AVL Tree</li>
   <li>Singly Linked List</li>
   <li>Doubly Linked List</li>
+  <li>Min Heap</li>
 </ul>
 
 <h4>Algorithms</h4>
