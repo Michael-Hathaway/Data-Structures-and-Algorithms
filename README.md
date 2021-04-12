@@ -12,11 +12,13 @@ and algorithms in the Go programming language.</p>
   <li>Singly Linked List</li>
   <li>Doubly Linked List</li>
   <li>Min Heap</li>
+  <li>Max Heap</li>
 </ul>
 
 <h4>Algorithms</h4>
 <ul>
   <li>Insertion Sort</li>
+  <li>Heap Sort (implemented in data_structures/max_heap.go)</li>
 </ul>
 
 <h4>Interview Questions</h4>
