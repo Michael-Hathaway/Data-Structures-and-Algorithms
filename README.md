@@ -13,6 +13,7 @@ and algorithms in the Go programming language.</p>
   <li>Doubly Linked List</li>
   <li>Min Heap</li>
   <li>Max Heap</li>
+  <li>Hash Trie</li>
 </ul>
 
 <h4>Algorithms</h4>
