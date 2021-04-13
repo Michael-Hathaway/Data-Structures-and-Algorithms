@@ -14,6 +14,7 @@ and algorithms in the Go programming language.</p>
   <li>Min Heap</li>
   <li>Max Heap</li>
   <li>Hash Trie</li>
+  <li>Merkle Tree</li>
 </ul>
 
 <h4>Algorithms</h4>
