@@ -20,6 +20,7 @@ and algorithms in the Go programming language.</p>
 <h4>Algorithms</h4>
 <ul>
   <li>Insertion Sort</li>
+  <li>Merge Sort</li>
   <li>Heap Sort (implemented in data_structures/max_heap.go)</li>
 </ul>
 
