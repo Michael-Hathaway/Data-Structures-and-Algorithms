@@ -8,12 +8,6 @@ import (
 	"time"
 )
 
-// any type that implements the fmt.Stringer interface can be stored
-// in the merkle tree
-type Hashable interface {
-	String() string
-}
-
 type MerkleNode struct {
 	hash  string
 	left  *MerkleNode
@@ -22,7 +16,7 @@ type MerkleNode struct {
 }
 
 type MerkleTree struct {
-	merkleRoot *MerkleNode
+	root *MerkleNode
 }
 
 // method returns true if the node is a leaf node
@@ -69,7 +63,7 @@ func buildMerkleTree(leafNodes []*MerkleNode) *MerkleTree {
 		leafNodes = combineAdjacentMerkleNodes(leafNodes)
 	}
 
-	return &MerkleTree{merkleRoot: leafNodes[0]}
+	return &MerkleTree{root: leafNodes[0]}
 }
 
 // function takes an array of MerkleNode pointers and returns
@@ -102,7 +96,7 @@ func createInternalMerkleNode(left, right *MerkleNode) *MerkleNode {
 }
 
 // function creates a leaf MerkleNode with the given data
-func createLeafMerkleNode(data fmt.Stringer) *MerkleNode {
+func createLeafNode(data fmt.Stringer) *MerkleNode {
 	node := new(MerkleNode)
 	node.data = data
 	node.hash = node.calcNodeHash()
@@ -116,7 +110,7 @@ func createLeafNodes(data []fmt.Stringer) []*MerkleNode {
 	var leafNodes []*MerkleNode
 
 	for _, value := range data {
-		node := createLeafMerkleNode(value)
+		node := createLeafNode(value)
 		leafNodes = append(leafNodes, node)
 	}
 
@@ -125,7 +119,7 @@ func createLeafNodes(data []fmt.Stringer) []*MerkleNode {
 
 // function verifies that a merkle tree is valid
 func VerifyMerkleTree(tree *MerkleTree) bool {
-	return verifyMerkleTreeHelper(tree.merkleRoot)
+	return verifyMerkleTreeHelper(tree.root)
 }
 
 // function verifies MerkleTree by recursively calculating node
