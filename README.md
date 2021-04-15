@@ -15,6 +15,7 @@ and algorithms in the Go programming language.</p>
   <li>Max Heap</li>
   <li>Hash Trie</li>
   <li>Merkle Tree</li>
+  <li>Graph</li>
 </ul>
 
 <h4>Algorithms</h4>
@@ -22,6 +23,8 @@ and algorithms in the Go programming language.</p>
   <li>Insertion Sort</li>
   <li>Merge Sort</li>
   <li>Heap Sort (implemented in data_structures/max_heap.go)</li>
+  <li>Depth First Search (implemented in data_structures/graph.go)</li>
+  <li>Breadth First Search (implemented in data_structures/graph.go)</li>
 </ul>
 
 <h4>Interview Questions</h4>
