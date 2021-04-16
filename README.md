@@ -22,6 +22,7 @@ and algorithms in the Go programming language.</p>
 <ul>
   <li>Insertion Sort</li>
   <li>Merge Sort</li>
+  <li>Binary Search</li>
   <li>Heap Sort (implemented in data_structures/max_heap.go)</li>
   <li>Depth First Search (implemented in data_structures/graph.go)</li>
   <li>Breadth First Search (implemented in data_structures/graph.go)</li>
