@@ -26,6 +26,7 @@ and algorithms in the Go programming language.</p>
   <li>Heap Sort (implemented in data_structures/max_heap.go)</li>
   <li>Depth First Search (implemented in data_structures/graph.go)</li>
   <li>Breadth First Search (implemented in data_structures/graph.go)</li>
+  <li>Longest Common Subsequence (Dynamic Programming Algorithm)</li>
 </ul>
 
 <h4>Interview Questions</h4>
