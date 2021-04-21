@@ -36,4 +36,6 @@ and algorithms in the Go programming language.</p>
   <li>Overlapping Intervals</li>
   <li>Three Number Sum</li>
   <li>Has Single Cycle</li>
+  <li>Three Number Sort</li>
+  <li>Merge Linked Lists</li>
 </ul>
