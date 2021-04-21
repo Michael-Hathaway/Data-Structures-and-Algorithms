@@ -38,4 +38,5 @@ and algorithms in the Go programming language.</p>
   <li>Has Single Cycle</li>
   <li>Three Number Sort</li>
   <li>Merge Linked Lists</li>
+  <li>Minimum Number of Jumps</li>
 </ul>
