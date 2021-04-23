@@ -39,4 +39,5 @@ and algorithms in the Go programming language.</p>
   <li>Three Number Sort</li>
   <li>Merge Linked Lists</li>
   <li>Minimum Number of Jumps</li>
+  <li>Shift Linked List</li>
 </ul>
