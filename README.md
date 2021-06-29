@@ -1,7 +1,7 @@
 # Data Structures and Algorithms in Golang
 
 <p>This repository contains implementation of many common data structures
-and algorithms in the Go programming language.</p>
+and algorithms.</p>
 
 </br>
 
