@@ -41,4 +41,6 @@ and algorithms.</p>
   <li>Minimum Number of Jumps</li>
   <li>Shift Linked List</li>
   <li>Sub Array Sort</li>
+  <li>Merge K Sorted Linked Lists</li>
+  <li>Sorted Linked List to BST</li>
 </ul>
