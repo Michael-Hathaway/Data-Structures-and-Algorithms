@@ -28,19 +28,3 @@ and algorithms.</p>
   <li>Breadth First Search (implemented in data_structures/graph.go)</li>
   <li>Longest Common Subsequence (Dynamic Programming Algorithm)</li>
 </ul>
-
-<h4>Interview Questions</h4>
-<ul>
-  <li>Array of Products</li>
-  <li>Reconstruct BST</li>
-  <li>Overlapping Intervals</li>
-  <li>Three Number Sum</li>
-  <li>Has Single Cycle</li>
-  <li>Three Number Sort</li>
-  <li>Merge Linked Lists</li>
-  <li>Minimum Number of Jumps</li>
-  <li>Shift Linked List</li>
-  <li>Sub Array Sort</li>
-  <li>Merge K Sorted Linked Lists</li>
-  <li>Sorted Linked List to BST</li>
-</ul>
